@@ -5,10 +5,10 @@ def line(katz_deli)
   list = []
   
   katz_deli.each do |name|
-    list.push("#{counter}. #{name} ")
+    list.push("#{counter}. #{name}")
     counter += 1 
   end
-  hello = list.join()
+  hello = list.join(" ")
   
   if katz_deli.length == 0 
     puts "The line is currently empty."
