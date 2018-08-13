@@ -8,12 +8,12 @@ def line(katz_deli)
     list.push("#{counter}. #{name}")
     counter += 1 
   end
-  hello = list.join(" ")
+  list_in_string = list.join(" ")
   
   if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{hello}"
+    puts "The line is currently: #{list_in_string}"
   end
 end
 
