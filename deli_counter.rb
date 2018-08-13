@@ -7,12 +7,13 @@ def line(katz_deli)
   katz_deli.each do |name|
     list.push("#{counter}. #{name} ")
     counter += 1 
-  end 
+  end
+  hello = list.join()
   
   if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
-    puts "The line is currently: #{name}"
+    puts "The line is currently: #{hello}"
     end
   end
 end
