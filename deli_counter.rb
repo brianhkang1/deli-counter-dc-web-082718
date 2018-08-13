@@ -6,6 +6,7 @@ def line(katz_deli)
   
   katz_deli.each do |name|
     list.push("#{counter}. #{name} ")
+    counter += 1 
   end 
   
   if katz_deli.length == 0 
