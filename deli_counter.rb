@@ -30,4 +30,3 @@ def now_serving
     puts "Currently serving #{first}."
   end
 end
-
