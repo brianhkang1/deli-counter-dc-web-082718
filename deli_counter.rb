@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     katz_deli.each do |name|
-      puts "The line is c"
+      puts "The line is currently: #{counter}. #{name}"
 end
 
 def take_a_number(katz_deli, name)
